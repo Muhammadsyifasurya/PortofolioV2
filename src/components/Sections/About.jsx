@@ -1,6 +1,15 @@
 import React from "react";
 import "./about.css";
 import profileImg from "/src/assets/img/profil.webp";
+import javaImg from "/src/assets/img/skills/java.webp";
+import htmlImg from "/src/assets/img/skills/html.webp";
+import cssImg from "/src/assets/img/skills/css.webp";
+import jsImg from "/src/assets/img/skills/javascript.webp";
+import reactImg from "/src/assets/img/skills/react.webp";
+import nextImg from "/src/assets/img/skills/nextjs.webp";
+import tailwindImg from "/src/assets/img/skills/tailwind.webp";
+import githubImg from "/src/assets/img/skills/github1.webp";
+import firebaseImg from "/src/assets/img/skills/firebase.webp";
 
 const About = () => {
   return (
@@ -46,7 +55,7 @@ const About = () => {
           <div className="grid max-w-5xl grid-cols-4 gap-2 p-4 xl:gap-9">
             <div className="skill-img col-span-2 row-span-1 flex items-center justify-center gap-3 bg-white xl:gap-5">
               <img
-                src="/src/assets/img/skills/html.webp"
+                src={htmlImg}
                 alt="icon html"
                 className="w[50px] h-[50px] bg-white object-contain xl:h-[100px] xl:w-[100px]"
               />
@@ -54,28 +63,28 @@ const About = () => {
             </div>
             <div className="skill-img flex justify-center">
               <img
-                src="/src/assets/img/skills/css.webp"
+                src={cssImg}
                 alt="icon css"
                 className="w[50px] h-[50px] bg-white object-contain xl:h-[100px] xl:w-[100px]"
               />
             </div>
             <div className="skill-img flex justify-center">
               <img
-                src="/src/assets/img/skills/javascript.webp"
+                src={jsImg}
                 alt="icon JavaScript"
                 className="w[50px] h-[50px] bg-white object-contain xl:h-[100px] xl:w-[100px]"
               />
             </div>
             <div className="skill-img flex justify-center">
               <img
-                src="/src/assets/img/skills/java.webp"
+                src={javaImg}
                 alt="icon Java"
                 className="w[50px] h-[50px] bg-white object-contain xl:h-[100px] xl:w-[100px]"
               />
             </div>
             <div className="skill-img col-span-2 row-span-1 flex items-center justify-center gap-2 xl:gap-5">
               <img
-                src="/src/assets/img/skills/react.webp"
+                src={reactImg}
                 alt="icon React"
                 className="w[50px] h-[50px] bg-white object-contain xl:h-[100px] xl:w-[100px]"
               />
@@ -83,28 +92,28 @@ const About = () => {
             </div>
             <div className="skill-img flex justify-center">
               <img
-                src="/src/assets/img/skills/nextjs.webp"
+                src={nextImg}
                 alt="icon nextJs"
                 className="w[50px] h-[50px] bg-white object-contain xl:h-[100px] xl:w-[100px]"
               />
             </div>
             <div className="skill-img flex justify-center">
               <img
-                src="/src/assets/img/skills/github1.webp"
+                src={githubImg}
                 alt="icon GitHub"
                 className="w[50px] h-[50px] bg-white object-contain xl:h-[100px] xl:w-[100px]"
               />
             </div>
             <div className="skill-img flex justify-center">
               <img
-                src="/src/assets/img/skills/firebase.webp"
+                src={firebaseImg}
                 alt="icon Firebase"
                 className="w[50px] h-[50px] bg-white object-contain xl:h-[100px] xl:w-[100px]"
               />
             </div>
             <div className="skill-img col-span-2 row-span-1 flex items-center justify-center gap-1 xl:gap-4">
               <img
-                src="/src/assets/img/skills/tailwind.webp"
+                src={tailwindImg}
                 alt="icon Tailwind"
                 className="w[50px] h-[50px] bg-white object-contain xl:h-[100px] xl:w-[100px]"
               />

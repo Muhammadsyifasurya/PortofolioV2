@@ -1,4 +1,7 @@
 import React from "react";
+import nexcentImg from "/src/assets/img/Nexcent.jpg";
+import ekurbtnImg from "/src/assets/img/e-kur-btn.jpg";
+import twibbonImg from "/src/assets/img/twibbon.jpg";
 
 const Work = () => {
   return (
@@ -16,7 +19,7 @@ const Work = () => {
 
         <div className="flex flex-col items-center pt-10 xl:flex-row xl:pt-16">
           <img
-            src="/src/assets/img/Nexcent.jpg"
+            src={nexcentImg}
             alt="screenshot Nexcent"
             className="h-40 w-[300px] object-cover grayscale transition-all duration-500 ease-in-out hover:grayscale-0 xl:h-80 xl:w-auto"
           />
@@ -62,7 +65,7 @@ const Work = () => {
 
         <div className="flex flex-col items-center pt-24 xl:w-[1075px] xl:flex-row-reverse">
           <img
-            src="/src/assets/img/e-kur-btn.jpg"
+            src={ekurbtnImg}
             alt=""
             className="h-40 w-[300px] object-cover grayscale transition-all duration-500 ease-in-out hover:grayscale-0 xl:h-80 xl:w-auto"
           />
@@ -110,7 +113,7 @@ const Work = () => {
 
         <div className="flex flex-col items-center pb-5 pt-24 xl:flex-row">
           <img
-            src="/src/assets/img/twibbon.jpg"
+            src={twibbonImg}
             alt="screenshot Nexcent"
             className="h-40 w-[300px] object-cover grayscale transition-all duration-500 ease-in-out hover:grayscale-0 xl:h-80 xl:w-auto"
           />
