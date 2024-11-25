@@ -1,5 +1,6 @@
 import React from "react";
 import "./about.css";
+import profileImg from "/src/assets/img/profil.webp";
 
 const About = () => {
   return (
@@ -32,7 +33,7 @@ const About = () => {
           </div>
           <div className="profile">
             <img
-              src="/src/assets/img/profil.webp"
+              src={profileImg}
               alt="Photo Profile"
               className="h-64 w-64 rounded-full bg-[#0a192f] object-cover"
             />
