@@ -1,6 +1,7 @@
 import React from "react";
 import "./navbar.css";
 import Button from "../Button";
+import logoImg from "/public/logo1.webp";
 
 const Navbar = () => {
   return (
@@ -8,11 +9,7 @@ const Navbar = () => {
       <nav className="fixed z-10 flex h-20 w-full justify-between bg-[#0a192f] px-8 font-semibold xl:px-20 xl:shadow-xl">
         <div className="flex items-center">
           <a href="#">
-            <img
-              className="logo w-14"
-              src="/src/assets/img/logo1.webp"
-              alt="logo"
-            />
+            <img className="logo w-14" src={logoImg} alt="logo" />
           </a>
         </div>
         <ul className="hidden text-[#ccd6f6] xl:flex xl:items-center xl:gap-10">
