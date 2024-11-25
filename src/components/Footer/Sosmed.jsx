@@ -11,6 +11,7 @@ const Sosmed = () => {
             target="_blank"
             rel="noopener"
             className="text-2xl"
+            aria-label="Visit my GitHub profile"
           >
             <i className="fab fa-github"></i>
           </a>
@@ -21,6 +22,7 @@ const Sosmed = () => {
             target="_blank"
             rel="noopener"
             className="text-2xl"
+            aria-label="Visit my LinkedIn profile"
           >
             <i className="fab fa-linkedin"></i>
           </a>
@@ -31,6 +33,7 @@ const Sosmed = () => {
             target="_blank"
             rel="noopener"
             className="text-2xl"
+            aria-label="Visit my Instagram profile"
           >
             <i className="fab fa-instagram"></i>
           </a>
@@ -41,6 +44,7 @@ const Sosmed = () => {
             target="_blank"
             rel="noopener"
             className="text-2xl"
+            aria-label="Visit my Facebook profile"
           >
             <i className="fab fa-facebook"></i>
           </a>
@@ -51,6 +55,7 @@ const Sosmed = () => {
             target="_blank"
             rel="noopener"
             className="text-2xl"
+            aria-label="Visit my TikTok profile"
           >
             <i className="fab fa-tiktok"></i>
           </a>

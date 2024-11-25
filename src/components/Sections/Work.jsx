@@ -57,7 +57,6 @@ const Work = () => {
                   target="_blank"
                   rel="noopener"
                   aria-label="Visit my live website"
-                  aria-label="Visit my GitHub profile"
                 >
                   <i className="fas fa-external-link-alt text-[23px] text-white transition-all duration-300 hover:text-[#64ffda]"></i>
                 </a>
@@ -147,6 +146,7 @@ const Work = () => {
                   href="https://github.com/Muhammadsyifasurya/Twibbon.git"
                   target="_blank"
                   rel="noopener"
+                  aria-label="Visit my github profile"
                 >
                   <i className="fab fa-github text-[25px] text-white transition-all duration-300 hover:text-[#64ffda]"></i>
                 </a>
