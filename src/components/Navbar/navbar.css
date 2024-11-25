@@ -1,0 +1,13 @@
+.hover-navbar {
+  @apply transition-all duration-300 ease-in-out hover:text-[#64ffda];
+}
+
+.logo {
+  @apply rounded-[50%] border-[2px] border-[#64ffda];
+  @apply transition-all duration-300 ease-in-out;
+}
+
+.logo:hover {
+  @apply translate-x-[-5px] translate-y-[-5px] transform;
+  box-shadow: 5px 5px 0 0 #64ffda;
+}

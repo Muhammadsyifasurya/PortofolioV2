@@ -1,0 +1,33 @@
+input[type="radio"] {
+  display: none;
+}
+
+/* Display text1 when option 1 is selected */
+#option1:checked ~ .text1 {
+  display: block;
+}
+
+/* Display text2 when option 2 is selected */
+#option2:checked ~ .text1 {
+  display: none;
+}
+
+#option2:checked ~ .text2 {
+  display: block;
+}
+
+#option2:checked ~ .text3 {
+  display: none;
+}
+
+#option3:checked ~ .text1 {
+  display: none;
+}
+
+#option3:checked ~ .text2 {
+  display: none;
+}
+
+#option3:checked ~ .text3 {
+  display: block;
+}

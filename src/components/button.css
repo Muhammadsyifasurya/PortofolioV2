@@ -1,0 +1,10 @@
+.button {
+  @apply max-w-56 rounded-md px-5 py-2 text-[#64ffda];
+  @apply border border-[#64ffda];
+  @apply transition-all duration-300 ease-in-out;
+}
+
+.button:hover {
+  @apply translate-x-[-5px] translate-y-[-5px] transform;
+  box-shadow: 5px 5px 0 0 #64ffda;
+}
